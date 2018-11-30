@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function add(num1,num2){
+		document.write(num1+num2);
+	}
+	add(2,3);
+
+	document.write('<br />');
+
+	function word(w1,w2){
+		document.write(w1+w2);
+	}
+
+	word('Good','Day');
+
+	document.write('<br />');
+
+	function name(item1,item2){
+		document.write('i want '+ item1);
+		document.write('<br />');
+		document.write(' i want'+ item2);
+	}
+
+	name('name1','name2');
+
+	document.write('<br />');
+	
+	function number(num1,num2){
+		return num1*num2;
+	}
+
+	const mulnum=number(10,10);
+	document.write(mulnum);
+
+	document.write('<br />');
+
+
+	const weather =function(sun,rain){
+		return sun+rain;
+	}
+
+	const w =weather('hot','cold');
+	document.write(w);
+
+	document.write('<br />');
+
+	const weather2 =(snow)=>{
+		return snow	
+	}
+	const s=('ice');
+	document.write(s);
+
+
+	// document.write('<br />');
+
+	// const drink = (juice,coffe) => return juice+coffe;
+
+	// const D=drink('orange','latte');
+
+	// document.write(D);
+
+	document.write('<br />');
+
+	const city='New York'
+
+	const logcity= () =>{
+		let skyscraper='New';
+		return "The Stars over the"+city +"in"+skyscraper;
+	};
+
+	document.write(logcity());
+
+	document.write('<br />');
+
+	const sky =() =>{
+		const night='Moon';
+		document.write(night);
+	}
+
+	sky();
+
+</script>
+</body>
+</html>
